@@ -1,0 +1,42 @@
+#Social links: https://go.crowtycraft.es/social
+#Help & Support: https://help.crowtycraft.es
+#TrustPilot: https://go.crowtycraft.es/trustpilot
+
+#Play with us! : https://crowtycraft.es
+
+
+#  WAAAAAAARNING, I HAVE A VERY BAD ENGLISH, SO... SORRY :/
+
+config:
+  #Grant this permission to the users or group you want to be able to interact with the shulkers with right click. (Give it to everyone if you want everyone to have access)
+  permission: 'crowty.addon.shulker'
+
+  #Per-World settings
+  enabled-worlds:
+    enabled: false #Enable or disable per-world remote-shulker operator
+    #This feature allows you to open shulker's remotely on the worlds you specify
+    #⚠️CAUTION: If a user has the permission indicated above, they will be able to open shulkers remotely even if they are in a world where it is prohibited.
+    worlds:
+      - "World1"
+      - "World2"
+      - "World3"
+
+  #Sound option
+  sound:
+    open:
+      enabled: true #Enable or disable sound play on shulker open
+      sound-type: BLOCK_SHULKER_BOX_OPEN #https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+      #If you want change this sound, check Spigot-API
+    close:
+      enabled: true #Enable or disable sound play on shulker close
+      sound-type: BLOCK_SHULKER_BOX_CLOSE #https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+      #If you want change this sound, check Spigot-API
+
+  #Language section
+  prefix: '&6&lCrowtyCraftNT'
+  notify-nopermission: true #If set to 'false' nothing will be sent to the user
+  nopermission: §c§lHey! §7You dont have permission to open the shulker here...
+
+#All about color codes (External website):  https://minecraftitemids.com/color-codes
+
+#For message, it's better '§' to u

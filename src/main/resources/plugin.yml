@@ -1,0 +1,7 @@
+name: Crowty-ReporteShulker
+version: 1.0-SNAPSHOT
+main: es.crowty.addon.RemoteShulker
+api-version: 1.13
+authors: [ LucasInDev, CrowtyCraftNT ]
+description: 'Open Shulker inventory remotely'
+website: https://crowtycraft.es
